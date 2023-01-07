@@ -7,7 +7,7 @@
 #header-background {
     width: 100%px;
     height: 800px;
-  background-image: url('./images/banner/banner1.png');
+    background-image: url('./images/banner/banner1.png');
 
 }
 
@@ -42,9 +42,10 @@
 }
 
 /* main section */
-main{
+main {
     padding: 50px 100px;
 }
+
 .section-content {
     display: flex;
     gap: 60px;
@@ -60,60 +61,95 @@ main{
     font-size: 40px;
     margin-bottom: 15px;
 }
-.cnt-para{
+
+.cnt-para {
     font-size: 20px;
     font-weight: 500px;
     margin-bottom: 15px;
 }
-.fa-check{
+
+.fa-check {
     color: green;
 }
+
 /* plans style */
-.pln-hd{
+.pln-hd {
     text-align: center;
     font-size: 50px;
     font-weight: 400px;
     margin-bottom: 60px;
 }
-.plans-blg{
+
+.plans-blg {
     display: flex;
     gap: 80px;
     margin: 0 100px;
 }
-.content-blg{
+
+.content-blg {
     align-items: center;
 }
-.icon-name{
+
+.icon-name {
     font-size: 25px;
     margin-top: 40px 0px;
 }
 
+/* gradient style */
+.grad {
+    background: url('../images/gradient2.png'), url('./images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 300px; */
+    padding: 50px 70px;
+    border-radius: 10px;
+    margin: 100px 150px;
+}
+.grad-description{
+    font-size:30px;
+    font-weight: 800px;
+    color: white;
+}
+.grad-btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600px;
+   color: red;
+   margin-top: 20px;
+}
+
 /* footer section */
-.footer-section{
+.footer-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 200px;
     background-color: black;
 }
-.footer-title{
+
+.footer-title {
     font-size: 60px;
     margin-bottom: 20px;
     color: #FFFFFF;
 }
-.footer-description{
+
+.footer-description {
     font-size: 16px;
     color: #FFFFFF;
     margin: 30px 0;
 }
-.contact-v{
+
+.contact-v {
     color: #FFFFFF;
-    margin: 30px 0; 
+    margin: 30px 0;
 }
-.footer-img{
+
+.footer-img {
     margin-right: 10px;
 }
-.email-box{
+
+.email-box {
     width: 100%;
     padding: 20px;
     border-radius: 5px;
@@ -123,10 +159,11 @@ main{
     border-color: #FFFFFF;
     margin-bottom: 20px;
 }
-.btn{
+
+.btn {
     padding: 20px;
     border-radius: 10px;
-    width: 170px ;
+    width: 170px;
     font-size: 20px;
     font-weight: 600px;
     color: orangered;
