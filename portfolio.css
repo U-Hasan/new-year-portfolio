@@ -13,7 +13,7 @@
 
 #background-content {
     text-align: right;
-    padding: 200px 200px;
+    padding: 150px 200px 0 100px;
 }
 
 .header-title {
@@ -42,6 +42,9 @@
 }
 
 /* main section */
+main{
+    padding: 50px 100px;
+}
 .section-content {
     display: flex;
     gap: 60px;
@@ -68,12 +71,19 @@
 /* plans style */
 .pln-hd{
     text-align: center;
+    font-size: 50px;
+    font-weight: 400px;
+    margin-bottom: 60px;
 }
 .plans-blg{
     display: flex;
     gap: 80px;
-   margin: 20px 450px;
+    margin: 0 300px;
 }
 .content-blg{
-    align-content: center;
+    align-items: center;
+}
+.icon-name{
+    font-size: 25px;
+    margin-top: 40px 0px;
 }
