@@ -7,7 +7,7 @@
 #header-background {
     width: 100%px;
     height: 800px;
-  background: url('../images/banner/banner1.png');
+  background-image: url('../images/banner/banner1.png');
 
 }
 
