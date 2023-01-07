@@ -7,18 +7,18 @@
 #header-background {
     width: 100%px;
     height: 800px;
-    background: url('../images/banner/banner1.png');
+    background: url('images/banner/banner1.png');
 
 }
 
 #background-content {
     text-align: right;
-    padding: 230px 250px;
+    padding: 200px 200px;
 }
 
 .header-title {
     font-size: 65px;
-    padding-left: 500px;
+    padding-left: 400px;
     margin-bottom: 20px;
 }
 
@@ -26,7 +26,7 @@
     color: #414040;
     font-size: 20px;
     font-weight: 500px;
-    padding-left: 700px;
+    padding-left: 300px;
     margin-bottom: 10px;
 }
 
@@ -44,12 +44,12 @@
 /* main section */
 .section-content {
     display: flex;
-    gap: 100px;
-    margin: 130px 230px;
+    gap: 60px;
+    margin: 50px 60px;
 }
 
 .content {
-    padding: 270px 80px 200px;
+    padding: 200px 60px 200px;
 }
 
 .cnt-title {
