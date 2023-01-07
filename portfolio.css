@@ -13,7 +13,7 @@
 
 #background-content {
     text-align: right;
-    padding: 150px 200px 0 100px;
+    padding: 150px 100px 0 100px;
 }
 
 .header-title {
@@ -48,7 +48,7 @@ main {
 
 .section-content {
     display: flex;
-    gap: 60px;
+    gap: 40px;
     margin: 50px 60px;
 }
 
@@ -94,6 +94,43 @@ main {
     font-size: 25px;
     margin-top: 40px 0px;
 }
+/* developer catagiry */
+.dev{
+    display: flex;
+    justify-content: space-between;
+     /* margin: 30px 100px 100px 0; */
+     margin-top: 100px;
+    /* margin-left: 100px; */
+    
+} 
+ ul{
+    list-style-type:square;   
+}
+ol{
+    list-style-type:lower-alpha;
+}
+.dev-container{
+    background-color: rgba(235, 223, 223, 0.473);
+    box-shadow: 0px 6px 10px #080707;
+    border-radius: 8px;
+    padding: 20px;
+}
+.dev-heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: orangered;
+}
+.dev-title{
+    font-size: 60px;
+    margin-top: 70px;
+    /* box-shadow: 0 2px 2px lightgreen; */
+}
+span{
+    color: red;
+    font-size: larger;
+}
+
 
 /* gradient style */
 .grad {
