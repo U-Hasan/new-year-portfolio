@@ -13,8 +13,8 @@
 
 #background-content {
     text-align: right;
-    padding: 150px 200px 0 100px;
-}
+    /* padding: 150px 200px 0 100px;
+} */
 
 .header-title {
     font-size: 65px;
@@ -78,7 +78,7 @@ main{
 .plans-blg{
     display: flex;
     gap: 80px;
-    margin: 0 300px;
+    margin: 0 100px;
 }
 .content-blg{
     align-items: center;
