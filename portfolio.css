@@ -62,6 +62,9 @@
     font-weight: 500px;
     margin-bottom: 15px;
 }
+.fa-check{
+    color: green;
+}
 /* plans style */
 .pln-hd{
     text-align: center;
